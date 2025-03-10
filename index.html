@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyber Wanderer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        body { 
+            margin: 0; 
+            overflow: hidden;
+            touch-action: pan-x;
+        }
+        #gameCanvas {
+            background: #000;
+        }
+        #hint {
+            position: fixed;
+            top: 10px;
+            color: #0ff;
+            font-family: 'Courier New';
+            text-shadow: 0 0 10px #0ff;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="hint">← → 移动你的数字灵魂</div>
+    <canvas id="gameCanvas"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
